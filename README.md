@@ -33,8 +33,8 @@ git clone https://github.com/ahmed95059/mlopsproject.git
 cd mlopsproject
 2. Create & activate a virtual environment
 python -m venv venv
-venv\Scripts\activate     # on Windows
-# source venv/bin/activate # on Linux/macOS
+venv\Scripts\activate      on Windows
+ source venv/bin/activate  on Linux/macOS
 3. Install dependencies
 pip install -r requirements.txt
 ### Run the Training Pipeline
