@@ -26,6 +26,8 @@ from sklearn.ensemble import (
 import mlflow
 from urllib.parse import urlparse
 
+import dagshub
+dagshub.init(repo_owner='ahmed95059', repo_name='mlopsproject', mlflow=True)
 
 
 
